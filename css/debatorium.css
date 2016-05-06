@@ -1,0 +1,10 @@
+.union-jack-blue-background-color {
+	background-color: #00247d;
+}
+
+.debatorium-logo {
+	font-family: 'Arvo';
+	font-weight: 700;
+	color: #00247d;
+	text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+}
