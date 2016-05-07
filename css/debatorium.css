@@ -13,7 +13,7 @@
 }
 .navigation__item {
 	float: none;
-	width: 5em;
+	width: 6em;
 	display: inline-block;
 }
 .navigation__item__icon {
@@ -33,8 +33,8 @@
 	padding-top: 6em;
 	padding-bottom: 6em;
 }
-.title__name {
-	font-size: 3em;
+.title__header {
+	font-size: 3.2em;
 	font-family: 'Arvo';
 	font-style: normal;
 	font-weight: 700;
@@ -43,13 +43,14 @@
 	text-transform: uppercase;
 	text-align: center;
 	text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+	line-height: 2em;
 }
 .title__motto {
 	font-size: 1em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
-	letter-spacing: .1em;
+	letter-spacing: .2em;
 	color: #999999;
 	text-transform: uppercase;
 	text-align: center;
@@ -64,7 +65,7 @@
 	padding-top: 7em;
 	padding-bottom: 7em;
 }
-.idea_name {
+.idea__header {
 	font-size: 2em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
@@ -73,6 +74,13 @@
 	color: #999999;
 	text-transform: uppercase;
 	text-align: center;
+}
+.idea__content {
+	font-size: 1em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	color: #999999;
 }
 
 .location {
@@ -84,6 +92,23 @@
 	padding-top: 7em;
 	padding-bottom: 7em;
 }
+.location__header {
+	font-size: 2em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: .1em;
+	color: #999999;
+	text-transform: uppercase;
+	text-align: center;
+}
+.location__content {
+	font-size: 1em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	color: #999999;
+}
 
 .calendar {
 	border-bottom-style: solid;
@@ -93,6 +118,23 @@
 .calendar__container {
 	padding-top: 7em;
 	padding-bottom: 7em;
+}
+.calendar__header {
+	font-size: 2em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: .1em;
+	color: #999999;
+	text-transform: uppercase;
+	text-align: center;
+}
+.calendar__content {
+	font-size: 1em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	color: #999999;
 }
 
 .team {
@@ -104,10 +146,36 @@
 	padding-top: 7em;
 	padding-bottom: 7em;
 }
+.team__header {
+	font-size: 2em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: .1em;
+	color: #999999;
+	text-transform: uppercase;
+	text-align: center;
+}
+.team__content {
+	font-size: 1em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	color: #999999;
+}
 
 .footer {
 
 }
 .footer__bar {
 	background-color: #f0f0f0;	
+}
+.footer__copyright {
+	font-size: 1em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	color: #999999;
+	padding: 1em;
+	text-align: center;
 }
