@@ -1,10 +1,113 @@
-.union-jack-blue-background-color {
-	background-color: #00247d;
+.wrapper {
+	font-size: 16px;
 }
 
-.debatorium-logo {
-	font-family: 'Arvo';
-	font-weight: 700;
+.navigation {
+
+}
+.navigation__bar {
+	background-color: #f0f0f0;
+}
+.navigation__items {
+	text-align: center;
+}
+.navigation__item {
+	float: none;
+	width: 5em;
+	display: inline-block;
+}
+.navigation__item__icon {
+	color: #999999;
+}
+.navigation__item__icon:hover {
 	color: #00247d;
+	background-color: #f0f0f0;
+}
+
+.title {
+	border-bottom-style: solid;
+	border-bottom-width: .1em;
+	border-bottom-color: #e5e5e5;
+}
+.title__container {
+	padding-top: 6em;
+	padding-bottom: 6em;
+}
+.title__name {
+	font-size: 3em;
+	font-family: 'Arvo';
+	font-style: normal;
+	font-weight: 700;
+	letter-spacing: .3em;
+	color: #00247d;
+	text-transform: uppercase;
+	text-align: center;
 	text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+}
+.title__motto {
+	font-size: 1em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: .1em;
+	color: #999999;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.idea {
+	border-bottom-style: solid;
+	border-bottom-width: .1em;
+	border-bottom-color: #e5e5e5;
+}
+.idea__container {
+	padding-top: 7em;
+	padding-bottom: 7em;
+}
+.idea_name {
+	font-size: 2em;
+	font-family: 'Source Sans Pro';
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: .1em;
+	color: #999999;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.location {
+	border-bottom-style: solid;
+	border-bottom-width: .1em;
+	border-bottom-color: #e5e5e5;
+}
+.location__container {
+	padding-top: 7em;
+	padding-bottom: 7em;
+}
+
+.calendar {
+	border-bottom-style: solid;
+	border-bottom-width: .1em;
+	border-bottom-color: #e5e5e5;
+}
+.calendar__container {
+	padding-top: 7em;
+	padding-bottom: 7em;
+}
+
+.team {
+	border-bottom-style: solid;
+	border-bottom-width: .1em;
+	border-bottom-color: #e5e5e5;
+}
+.team__container {
+	padding-top: 7em;
+	padding-bottom: 7em;
+}
+
+.footer {
+
+}
+.footer__bar {
+	background-color: #f0f0f0;	
 }
