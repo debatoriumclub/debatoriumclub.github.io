@@ -120,6 +120,9 @@
 	padding-bottom: 2em;
 }
 .location__map {
+	border-style: solid;
+	border-width: .1em;
+	border-color: #e5e5e5;
 	height: 500px;
 }
 
@@ -149,6 +152,11 @@
 	font-style: normal;
 	font-weight: 400;
 	color: #999999;
+}
+.calendar__body {
+	border-style: solid;
+	border-width: .1em;
+	border-color: #e5e5e5;
 }
 
 .team {
@@ -192,7 +200,7 @@
 }
 .team-member__photo__image {
 	border-style: solid;
-	border-width: .2em;
+	border-width: .1em;
 	border-color: #e5e5e5;
 	width: 15em;
 	height: 15em
