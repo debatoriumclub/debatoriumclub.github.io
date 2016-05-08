@@ -162,6 +162,19 @@
 	border-width: .1em;
 	border-color: #e5e5e5;
 }
+.calendar__header__date {
+	background-color: #003399;
+}
+.calendar__header__week-day {
+	background-color: #00247d;
+}
+.calendar__picker__date {}
+.calendar__picker__date--selected {
+	background-color: #003399;
+}
+.calendar__picker__date--selected:hover {
+	background-color: #00247d;
+}
 
 .team {
 	border-bottom-style: solid;
