@@ -32,7 +32,6 @@
 	padding-bottom: 6em;
 }
 .title__header {
-	font-size: 3.2em;
 	font-family: 'Arvo';
 	font-style: normal;
 	font-weight: 700;
@@ -44,7 +43,6 @@
 	padding-bottom: .2em;
 }
 .title__motto {
-	font-size: 1em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
@@ -246,4 +244,40 @@
 	padding-top: 1.4em;
 	padding-bottom: 1.4em;
 	text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+	.title__header {
+		font-size: 4em;
+	}
+	.title__motto {
+		font-size: 1.5em;
+	}
+}
+
+@media screen and (min-width: 993px) and (max-width: 1279px) {
+	.title__header {
+		font-size: 3.2em;
+	}
+	.title__motto {
+		font-size: 1.3em;
+	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
+	.title__header {
+		font-size: 2.4em;
+	}
+	.title__motto {
+		font-size: 1.1em;
+	}
+}
+
+@media screen and (min-width: 0) and (max-width: 600px){
+	.title__header {
+		font-size: 1.6em;
+	}
+	.title__motto {
+		font-size: 0.9em;
+	}
 }
