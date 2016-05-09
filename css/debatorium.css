@@ -11,7 +11,6 @@
 }
 .navigation__item {
 	float: none;
-	width: 6em;
 	display: inline-block;
 }
 .navigation__item__icon {
@@ -27,6 +26,7 @@
 	border-bottom-width: .1em;
 	border-bottom-color: #e5e5e5;
 }
+.title__container {}
 .title__header {
 	font-family: 'Arvo';
 	font-style: normal;
@@ -53,12 +53,8 @@
 	border-bottom-width: .1em;
 	border-bottom-color: #e5e5e5;
 }
-.idea__container {
-	padding-top: 7em;
-	padding-bottom: 7em;
-}
+.idea__container {}
 .idea__header {
-	font-size: 2em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
@@ -69,7 +65,6 @@
 	padding-bottom: 1em;
 }
 .idea__content {
-	font-size: 1em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
@@ -243,6 +238,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+	.navigation__item {
+		width: 8em;
+	}
 	.title__container {
 		padding-top: 9em;
 		padding-bottom: 9em;
@@ -253,9 +251,22 @@
 	.title__motto {
 		font-size: 1.5em;
 	}
+	.idea__container {
+		padding-top: 7em;
+		padding-bottom: 7em;
+	}
+	.idea__header {
+		font-size: 2em;
+	}
+	.idea__content {
+		font-size: 1em;
+	}
 }
 
 @media screen and (min-width: 993px) and (max-width: 1279px) {
+	.navigation__item {
+		width: 6em;
+	}
 	.title__container {
 		padding-top: 7em;
 		padding-bottom: 7em;
@@ -266,9 +277,22 @@
 	.title__motto {
 		font-size: 1.3em;
 	}
+	.idea__container {
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
+	.idea__header {
+		font-size: 1.8em;
+	}
+	.idea__content {
+		font-size: 0.9em;
+	}
 }
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
+	.navigation__item {
+		width: 5em;
+	}
 	.title__container {
 		padding-top: 6em;
 		padding-bottom: 6em;
@@ -279,9 +303,22 @@
 	.title__motto {
 		font-size: 1.1em;
 	}
+	.idea__container {
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+	.idea__header {
+		font-size: 1.6em;
+	}
+	.idea__content {
+		font-size: 0.8em;
+	}
 }
 
-@media screen and (min-width: 0) and (max-width: 600px){
+@media screen and (min-width: 0) and (max-width: 600px) {
+	.navigation__item {
+		width: 4em;
+	}
 	.title__container {
 		padding-top: 5em;
 		padding-bottom: 5em;
@@ -291,5 +328,15 @@
 	}
 	.title__motto {
 		font-size: 0.9em;
+	}
+	.idea__container {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+	.idea__header {
+		font-size: 1.4em;
+	}
+	.idea__content {
+		font-size: 0.8em;
 	}
 }
