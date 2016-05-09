@@ -259,7 +259,7 @@
 		font-size: 2em;
 	}
 	.idea__content {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 }
 
@@ -285,7 +285,7 @@
 		font-size: 1.8em;
 	}
 	.idea__content {
-		font-size: 1em;
+		font-size: 1.1em;
 	}
 }
 
@@ -308,10 +308,10 @@
 		padding-bottom: 4em;
 	}
 	.idea__header {
-		font-size: 1.6em;
+		font-size: 1.7em;
 	}
 	.idea__content {
-		font-size: 0.9px;
+		font-size: 1em;
 	}
 }
 
@@ -334,9 +334,9 @@
 		padding-bottom: 3em;
 	}
 	.idea__header {
-		font-size: 1.4em;
+		font-size: 1.6em;
 	}
 	.idea__content {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 }
