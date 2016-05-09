@@ -287,6 +287,9 @@
 		width: 15em;
 		height: 15em
 	}
+	.team-member__about {
+		padding-bottom: 0;
+	}
 }
 
 @media screen and (min-width: 993px) and (max-width: 1279px) {
@@ -352,6 +355,9 @@
 	.team-member__photo__image {
 		width: 12em;
 		height: 12em
+	}
+	.team-member__about {
+		padding-bottom: 0;
 	}
 }
 
@@ -419,6 +425,9 @@
 		width: 9em;
 		height: 9em
 	}
+	.team-member__about {
+		padding-bottom: 0;
+	}
 }
 
 @media screen and (min-width: 0) and (max-width: 600px) {
@@ -484,5 +493,8 @@
 	.team-member__photo__image {
 		width: 15em;
 		height: 15em
+	}
+	.team-member__about {
+		padding-bottom: 2em;
 	}
 }
