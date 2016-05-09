@@ -1,6 +1,10 @@
 .wrapper {
 	font-size: 16px;
 }
+.col {
+	padding-right: 0 !important;
+	padding-left: 0 !important;
+}
 
 .navigation {}
 .navigation__bar {
@@ -131,11 +135,8 @@
 	font-weight: 400;
 	color: #999999;
 }
-.calendar__description {
-	text-align: justify;
-}
 .calendar__body {
-	max-width: 22em;
+	min-width: 16em;
 	border-style: solid;
 	border-width: .1em;
 	border-color: #e5e5e5;
@@ -152,6 +153,9 @@
 }
 .calendar__picker__date--selected:hover {
 	background-color: #00247d;
+}
+.calendar__description {
+	text-align: justify;
 }
 
 .team {
@@ -192,8 +196,6 @@
 	border-style: solid;
 	border-width: .1em;
 	border-color: #e5e5e5;
-	width: 15em;
-	height: 15em
 }
 .team-member__photo__link {
 	display: inline-block;
@@ -278,6 +280,13 @@
 	.team__content {
 		font-size: 1.1em;
 	}
+	.calendar__description {
+		padding-left: 1em;
+	}
+	.team-member__photo__image {
+		width: 15em;
+		height: 15em
+	}
 }
 
 @media screen and (min-width: 993px) and (max-width: 1279px) {
@@ -336,6 +345,13 @@
 	}
 	.team__content {
 		font-size: 1.1em;
+	}
+	.calendar__description {
+		padding-left: 1em;
+	}
+	.team-member__photo__image {
+		width: 12em;
+		height: 12em
 	}
 }
 
@@ -396,6 +412,13 @@
 	.team__content {
 		font-size: 1em;
 	}
+	.calendar__description {
+		padding-left: 1em;
+	}
+	.team-member__photo__image {
+		width: 9em;
+		height: 9em
+	}
 }
 
 @media screen and (min-width: 0) and (max-width: 600px) {
@@ -454,5 +477,12 @@
 	}
 	.team__content {
 		font-size: 1em;
+	}
+	.calendar__description {
+		padding-left: 0em;
+	}
+	.team-member__photo__image {
+		width: 15em;
+		height: 15em
 	}
 }
