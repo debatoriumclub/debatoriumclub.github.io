@@ -77,12 +77,8 @@
 	border-bottom-width: .1em;
 	border-bottom-color: #e5e5e5;
 }
-.location__container {
-	padding-top: 7em;
-	padding-bottom: 7em;
-}
+.location__container {}
 .location__header {
-	font-size: 2em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
@@ -93,7 +89,6 @@
 	padding-bottom: 1em;
 }
 .location__content {
-	font-size: 1em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
@@ -112,7 +107,6 @@
 	border-style: solid;
 	border-width: .1em;
 	border-color: #e5e5e5;
-	height: 500px;
 }
 
 .calendar {
@@ -120,12 +114,8 @@
 	border-bottom-width: .1em;
 	border-bottom-color: #e5e5e5;
 }
-.calendar__container {
-	padding-top: 7em;
-	padding-bottom: 7em;
-}
+.calendar__container {}
 .calendar__header {
-	font-size: 2em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
@@ -136,7 +126,6 @@
 	padding-bottom: 1em;
 }
 .calendar__content {
-	font-size: 1em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
@@ -170,12 +159,8 @@
 	border-bottom-width: .1em;
 	border-bottom-color: #e5e5e5;
 }
-.team__container {
-	padding-top: 7em;
-	padding-bottom: 7em;
-}
+.team__container {}
 .team__header {
-	font-size: 2em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
@@ -186,7 +171,6 @@
 	padding-bottom: 1em;
 }
 .team__content {
-	font-size: 1em;
 	font-family: 'Source Sans Pro';
 	font-style: normal;
 	font-weight: 400;
@@ -261,6 +245,39 @@
 	.idea__content {
 		font-size: 1.1em;
 	}
+	.location__container {
+		padding-top: 7em;
+		padding-bottom: 7em;
+	}
+	.location__header {
+		font-size: 2em;
+	}
+	.location__content {
+		font-size: 1.1em;
+	}
+	.location__map {
+		height: 500px;
+	}
+	.calendar__container {
+		padding-top: 7em;
+		padding-bottom: 7em;
+	}
+	.calendar__header {
+		font-size: 2em;
+	}
+	.calendar__content {
+		font-size: 1.1em;
+	}
+	.team__container {
+		padding-top: 7em;
+		padding-bottom: 7em;
+	}
+	.team__header {
+		font-size: 2em;
+	}
+	.team__content {
+		font-size: 1.1em;
+	}
 }
 
 @media screen and (min-width: 993px) and (max-width: 1279px) {
@@ -285,6 +302,39 @@
 		font-size: 1.8em;
 	}
 	.idea__content {
+		font-size: 1.1em;
+	}
+	.location__container {
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
+	.location__header {
+		font-size: 1.8em;
+	}
+	.location__content {
+		font-size: 1.1em;
+	}
+	.location__map {
+		height: 450px;
+	}
+	.calendar__container {
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
+	.calendar__header {
+		font-size: 1.8em;
+	}
+	.calendar__content {
+		font-size: 1.1em;
+	}
+	.team_container {
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
+	.team__header {
+		font-size: 1.8em;
+	}
+	.team__content {
 		font-size: 1.1em;
 	}
 }
@@ -313,6 +363,39 @@
 	.idea__content {
 		font-size: 1em;
 	}
+	.location__container {
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+	.location__header {
+		font-size: 1.7em;
+	}
+	.location__content {
+		font-size: 1em;
+	}
+	.location__map {
+		height: 400px;
+	}
+	.calendar__container {
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+	.calendar__header {
+		font-size: 1.7em;
+	}
+	.calendar__content {
+		font-size: 1em;
+	}
+	.team__container {
+		padding-top: 4em;
+		padding-bottom: 4em;
+	}
+	.team__header {
+		font-size: 1.7em;
+	}
+	.team__content {
+		font-size: 1em;
+	}
 }
 
 @media screen and (min-width: 0) and (max-width: 600px) {
@@ -337,6 +420,39 @@
 		font-size: 1.6em;
 	}
 	.idea__content {
+		font-size: 1em;
+	}
+	.location__container {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+	.location__header {
+		font-size: 1.6em;
+	}
+	.location__content {
+		font-size: 1em;
+	}
+	.location__map {
+		height: 350px;
+	}
+	.calendar__container {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+	.calendar__header {
+		font-size: 1.6em;
+	}
+	.calendar__content {
+		font-size: 1em;
+	}
+	.team__container {
+		padding-top: 3em;
+		padding-bottom: 3em;
+	}
+	.team__header {
+		font-size: 1.6em;
+	}
+	.team__content {
 		font-size: 1em;
 	}
 }
