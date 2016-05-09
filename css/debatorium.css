@@ -230,7 +230,7 @@
 }
 .footer__contacts__facebook {
 	color: #999999;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 .footer__contacts__facebook:hover {
 	color: #3b5998;
@@ -241,10 +241,19 @@
 }
 .footer__contacts__phone {
 	color: #999999;
-	font-size: 2rem;
+	font-size: 1.5rem;
 }
 .footer__contacts__phone:hover {}
 .footer__contacts__phone__link {
+	color: #999999;
+	font-size: .8em;
+}
+.footer__contacts__email {
+	color: #999999;
+	font-size: 1.5rem;
+}
+.footer__contacts__email:hover {}
+.footer__contacts__email__link {
 	color: #999999;
 	font-size: .8em;
 }
