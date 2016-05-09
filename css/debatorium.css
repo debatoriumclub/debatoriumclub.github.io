@@ -27,10 +27,6 @@
 	border-bottom-width: .1em;
 	border-bottom-color: #e5e5e5;
 }
-.title__container {
-	padding-top: 6em;
-	padding-bottom: 6em;
-}
 .title__header {
 	font-family: 'Arvo';
 	font-style: normal;
@@ -247,6 +243,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+	.title__container {
+		padding-top: 9em;
+		padding-bottom: 9em;
+	}
 	.title__header {
 		font-size: 4em;
 	}
@@ -256,6 +256,10 @@
 }
 
 @media screen and (min-width: 993px) and (max-width: 1279px) {
+	.title__container {
+		padding-top: 7em;
+		padding-bottom: 7em;
+	}
 	.title__header {
 		font-size: 3.2em;
 	}
@@ -265,6 +269,10 @@
 }
 
 @media screen and (min-width: 601px) and (max-width: 992px) {
+	.title__container {
+		padding-top: 6em;
+		padding-bottom: 6em;
+	}
 	.title__header {
 		font-size: 2.4em;
 	}
@@ -274,6 +282,10 @@
 }
 
 @media screen and (min-width: 0) and (max-width: 600px){
+	.title__container {
+		padding-top: 5em;
+		padding-bottom: 5em;
+	}
 	.title__header {
 		font-size: 1.6em;
 	}
