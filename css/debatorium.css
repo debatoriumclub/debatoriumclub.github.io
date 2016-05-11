@@ -8,6 +8,21 @@
 .footer__bar > .container > .row {
 	margin-bottom: 0;
 }
+.bullet-point-container {
+	margin-left: 2em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.bullet-point {
+	list-style-type: disc;
+	list-style-position: inside;
+	list-style-image: none;
+}
+.text-container {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	text-align: justify;
+}
 
 .navigation {}
 .navigation__bar {
@@ -76,7 +91,6 @@
 	font-style: normal;
 	font-weight: 400;
 	color: #999999;
-	text-align: justify;
 }
 
 .location {
@@ -100,15 +114,6 @@
 	font-style: normal;
 	font-weight: 400;
 	color: #999999;
-}
-.location__description {
-	text-align: justify;
-}
-.location__description--padding-top {
-	padding-top: 2em;
-}
-.location__description--padding-bottom {
-	padding-bottom: 2em;
 }
 .location__map {
 	border-style: solid;
@@ -152,13 +157,12 @@
 }
 .calendar__picker__date {}
 .calendar__picker__date--selected {
-	background-color: #003399;
+	color: #003399;
+	font-weight: 700;
 }
 .calendar__picker__date--selected:hover {
-	background-color: #00247d;
-}
-.calendar__description {
-	text-align: justify;
+	color: #00247d;
+	font-weight: 700;
 }
 
 .team {
@@ -183,16 +187,9 @@
 	font-weight: 400;
 	color: #999999;
 }
-.team__description {
-	text-align: justify;
-}
-.team__description--padding-top {
-	padding-top: 2em;
-}
-.team__description--padding-bottom {
-	padding-bottom: 2em;
-}
 .team-member__photo__container {
+	margin-top: 2em;
+	margin-bottom: 2em;
 	text-align: center;
 }
 .team-member__photo__image {
@@ -374,7 +371,7 @@
 	.calendar__content {
 		font-size: 1.1em;
 	}
-	.team_container {
+	.team__container {
 		padding-top: 5em;
 		padding-bottom: 5em;
 	}
