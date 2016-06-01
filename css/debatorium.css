@@ -320,8 +320,8 @@ a:not(.navigation__item__icon) {
 		padding-left: 1em;
 	}
 	.team-member__photo__image {
-		width: 15em;
-		height: 15em
+		width: 12em;
+		height: 12em
 	}
 	.team-member__about {
 		padding-bottom: 0;
@@ -389,8 +389,8 @@ a:not(.navigation__item__icon) {
 		padding-left: 1em;
 	}
 	.team-member__photo__image {
-		width: 12em;
-		height: 12em
+		width: 10em;
+		height: 10em
 	}
 	.team-member__about {
 		padding-bottom: 0;
@@ -458,11 +458,11 @@ a:not(.navigation__item__icon) {
 		padding-left: 1em;
 	}
 	.team-member__photo__image {
-		width: 9em;
-		height: 9em
+		width: 12em;
+		height: 12em
 	}
 	.team-member__about {
-		padding-bottom: 0;
+		padding-bottom: 2em;
 	}
 }
 
