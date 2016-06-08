@@ -192,8 +192,6 @@ a:not(.navigation__item__icon) {
 	color: #999999;
 }
 .team-member__photo__container {
-	margin-top: 2em;
-	margin-bottom: 2em;
 	text-align: center;
 }
 .team-member__photo__image {
@@ -319,9 +317,16 @@ a:not(.navigation__item__icon) {
 	.calendar__description {
 		padding-left: 1em;
 	}
+	.team-member__photo__container--top-row {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	.team-member__photo__container--bottom-row {
+		margin-bottom: 2em;
+	}
 	.team-member__photo__image {
-		width: 12em;
-		height: 12em
+		width: 14em;
+		height: 14em
 	}
 	.team-member__about {
 		padding-bottom: 0;
@@ -388,9 +393,16 @@ a:not(.navigation__item__icon) {
 	.calendar__description {
 		padding-left: 1em;
 	}
+	.team-member__photo__container--top-row {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	.team-member__photo__container--bottom-row {
+		margin-bottom: 2em;
+	}
 	.team-member__photo__image {
-		width: 10em;
-		height: 10em
+		width: 12em;
+		height: 12em
 	}
 	.team-member__about {
 		padding-bottom: 0;
@@ -456,6 +468,13 @@ a:not(.navigation__item__icon) {
 	}
 	.calendar__description {
 		padding-left: 1em;
+	}
+	.team-member__photo__container--top-row {
+		margin-top: 2em;
+		margin-bottom: 2em;
+	}
+	.team-member__photo__container--bottom-row {
+		margin-bottom: 2em;
 	}
 	.team-member__photo__image {
 		width: 12em;
